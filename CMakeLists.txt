@@ -12,6 +12,8 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(qdialogtest
   main.cpp
+  MyDialog.cpp
+  MyDialog.h
   )
 
 target_link_libraries(qdialogtest Qt5::Widgets)

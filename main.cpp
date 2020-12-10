@@ -1,9 +1,9 @@
 #include <QApplication>
-#include <QDialog>
+#include "MyDialog.h"
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
-  QDialog dialog;
+  MyDialog dialog;
   dialog.exec();
   return 0;
 }
